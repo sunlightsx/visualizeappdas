@@ -1,0 +1,88 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunlight Brasil</title>
+  <!-- Tailwind direto via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- NAVBAR -->
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-xl font-bold text-yellow-600">Sunlight Brasil</h1>
+      <nav class="space-x-6">
+        <a href="#servicos" class="hover:text-yellow-600">Serviços</a>
+        <a href="#sobre" class="hover:text-yellow-600">Sobre</a>
+        <a href="#cnpj" class="hover:text-yellow-600">CNPJ</a>
+        <a href="#contato" class="hover:text-yellow-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-yellow-600 text-white text-center py-20 px-6">
+    <h2 class="text-4xl font-bold mb-4">Energia limpa e sustentável</h2>
+    <p class="max-w-2xl mx-auto mb-6">A Sunlight Brasil oferece soluções em energia solar para residências, empresas e indústrias, garantindo economia e respeito ao meio ambiente.</p>
+    <a href="#contato" class="bg-white text-yellow-700 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-100">Solicite um orçamento</a>
+  </section>
+
+  <!-- PRINCIPAIS SERVIÇOS -->
+  <section id="servicos" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-8 text-center">Principais Serviços</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h4 class="font-semibold text-lg mb-2">☀️ Energia Solar Residencial</h4>
+        <p>Projetos completos para casas, com instalação rápida e eficiente.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h4 class="font-semibold text-lg mb-2">🏢 Energia Solar Comercial</h4>
+        <p>Soluções para empresas reduzirem custos com energia elétrica.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h4 class="font-semibold text-lg mb-2">⚙️ Energia Solar Industrial</h4>
+        <p>Projetos em larga escala para indústrias de diferentes setores.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Sobre a Sunlight Brasil</h3>
+      <p>Com anos de experiência no setor energético, a Sunlight Brasil é referência em soluções de energia solar. Nossa missão é levar sustentabilidade, economia e inovação para nossos clientes.</p>
+    </div>
+  </section>
+
+  <!-- CNPJ -->
+  <section id="cnpj" class="max-w-4xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6">Informações da Empresa</h3>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <p><strong>CNPJ:</strong> 00.000.000/0001-00</p>
+      <p><strong>Razão Social:</strong> Sunlight Brasil Energia Solar Ltda.</p>
+      <p><strong>Endereço:</strong> Av. Exemplo, 1234 – São Paulo/SP</p>
+      <p><strong>Telefone:</strong> (11) 4000-0000</p>
+      <p><strong>E-mail:</strong> contato@sunlightbrasil.com.br</p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="max-w-4xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 text-center">Fale Conosco</h3>
+    <form class="bg-white p-6 rounded-lg shadow grid gap-4">
+      <input type="text" placeholder="Nome" class="border p-3 rounded" />
+      <input type="email" placeholder="E-mail" class="border p-3 rounded" />
+      <input type="text" placeholder="Telefone" class="border p-3 rounded" />
+      <textarea placeholder="Mensagem" class="border p-3 rounded h-28"></textarea>
+      <button type="submit" class="bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-200 text-center py-6 text-sm">
+    © 2025 Sunlight Brasil – Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
